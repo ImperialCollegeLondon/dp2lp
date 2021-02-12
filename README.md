@@ -4,7 +4,7 @@ Source code and data for the paper "Optimal Hospital Care Scheduling During the 
 # Content description
 
 Code:
-- input\_file/User\_input.xlsx: Excel file containing patient group data (DP)
+- input\_file/User\_Input.xlsx: Excel file containing patient group data
 - excel\_to\_json.py: converts the data in User\_input.xlsx into the corresponding DP parameters in json format
 - LP\_script.py: takes as input the json data and writes the LP problem 
 - prob\_sol.py: solves the LP problem in CPLEX and produces relevant output data 
